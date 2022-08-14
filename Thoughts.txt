@@ -1,0 +1,24 @@
+I want to track machine times.
+A machine must be in some state at all times
+    Setup   - Job
+    Run     - Job
+    Idle   
+
+I need t know what job against. How many parts produced and what scrap
+
+A machine is really a production station.
+A station has
+    name
+    description
+    must links to a schedule for availaility, or default to something
+    must belong to a department
+    may belong to a group , cell , line
+    current status
+    
+
+A department has a 
+    name 
+    description
+    list of stations
+    
+
